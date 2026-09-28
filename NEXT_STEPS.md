@@ -13,8 +13,8 @@
   - Rhodes West Africa (reported closed 27 Aug 2026), Mandela Rhodes (reported closed 14 Apr 2026), Stipendium Hungaricum (last reported deadline 15 Jan 2026) — confirm next-cycle dates.
   - Mastercard Foundation at KNUST and Ashesi — confirm the current call for applications.
   - Stipendium Hungaricum — confirm Ghana's partner-country status and the Ghana sending partner.
-- Configure the production domain and set `NEXT_PUBLIC_SITE_URL` (canonical URLs, sitemap and robots depend on it).
-- Deploy to a hosting provider (see README → Deployment).
+- Optional: add a custom domain in Vercel, then update `NEXT_PUBLIC_SITE_URL` in the Vercel project to match and redeploy.
+- Confirm the site loads in a private/incognito window (Vercel deployment protection is on for preview URLs; the production domain should be public).
 - Submit the sitemap to Google Search Console.
 - Configure analytics if desired (no analytics is installed).
 - Apply for Google AdSense when the site has verified content; then set `NEXT_PUBLIC_ADSENSE_CLIENT_ID` and `NEXT_PUBLIC_ADSENSE_SLOT_ID`. Do not enable Auto ads.
@@ -51,4 +51,5 @@
 - Category pages (undergraduate, postgraduate, PhD, fully funded) and four guides, with internal linking
 - Metadata, canonical URLs, Open Graph, breadcrumb structured data, sitemap and robots (`/saved` excluded)
 - Environment-gated, labelled ad slots on home, category and guide pages only
+- Deployed to Vercel (project `ghana-scholarship-finder`, auto-deploys from `main`) at https://ghana-scholarship-finder.vercel.app with `NEXT_PUBLIC_SITE_URL` set; canonical URLs and robots verified on the live site
 - Mobile layout checked at 375px width (no horizontal overflow) and save → saved page flow checked in Chromium

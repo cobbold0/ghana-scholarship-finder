@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { SITE_NAME } from "@/lib/site";
+import { CONTACT_EMAIL, SITE_NAME } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About and how we verify listings",
@@ -69,11 +69,15 @@ export default function AboutPage() {
             details or documents to Google.
           </p>
         )}
+        <p>
+          Read the full <Link href="/privacy" className="text-emerald-800 underline">privacy policy</Link>.
+        </p>
       </section>
 
       <p>
-        Spotted an error? Always rely on the provider&apos;s official website, and{" "}
-        <Link href="/scholarships" className="text-emerald-800 underline">browse the directory</Link> for other options.
+        Spotted an error or out-of-date listing? Email{" "}
+        <a href={`mailto:${CONTACT_EMAIL}`} className="text-emerald-800 underline">{CONTACT_EMAIL}</a>. Always rely on the
+        provider&apos;s official website before applying.
       </p>
     </article>
   );

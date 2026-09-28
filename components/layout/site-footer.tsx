@@ -14,6 +14,7 @@ export function SiteFooter() {
             <li><Link className="underline hover:text-slate-900" href="/about">About &amp; verification</Link></li>
             <li><Link className="underline hover:text-slate-900" href="/guides">Guides</Link></li>
             <li><Link className="underline hover:text-slate-900" href="/categories">Categories</Link></li>
+            <li><Link className="underline hover:text-slate-900" href="/privacy">Privacy</Link></li>
           </ul>
         </nav>
       </div>

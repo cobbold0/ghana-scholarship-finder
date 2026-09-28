@@ -15,5 +15,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: url("/guides") },
     ...guides.map((g) => ({ url: url(`/guides/${g.slug}`), lastModified: g.updatedAt })),
     { url: url("/about") },
+    { url: url("/privacy") },
   ];
 }

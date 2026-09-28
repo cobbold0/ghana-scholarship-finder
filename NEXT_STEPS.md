@@ -13,14 +13,12 @@
   - Rhodes West Africa (reported closed 27 Aug 2026), Mandela Rhodes (reported closed 14 Apr 2026), Stipendium Hungaricum (last reported deadline 15 Jan 2026) — confirm next-cycle dates.
   - Mastercard Foundation at KNUST and Ashesi — confirm the current call for applications.
   - Stipendium Hungaricum — confirm Ghana's partner-country status and the Ghana sending partner.
-- Optional: add a custom domain in Vercel, then update `NEXT_PUBLIC_SITE_URL` in the Vercel project to match and redeploy.
-- Confirm the site loads in a private/incognito window (Vercel deployment protection is on for preview URLs; the production domain should be public).
-- Submit the sitemap to Google Search Console.
-- Create a GA4 property, then set `NEXT_PUBLIC_GA_ID` (e.g. `G-XXXXXXXXXX`) for Production in the Vercel project and redeploy. In GA admin, keep Enhanced measurement on (outbound clicks, site search with the `q` parameter).
-- Before enabling GA: publish a privacy policy and, if serving EU/UK visitors, add cookie consent.
-- Apply for Google AdSense when the site has verified content; then set `NEXT_PUBLIC_ADSENSE_CLIENT_ID` and `NEXT_PUBLIC_ADSENSE_SLOT_ID`. Do not enable Auto ads.
-- Review privacy and legal requirements (privacy policy/cookie notice, especially once ads or analytics are enabled).
-- Add a contact method for reporting errors in listings (email or form) — needs an owner-controlled address.
+- Add `ghanascholarshipfinder.cobbold.dev` to Google Search Console and submit `https://ghanascholarshipfinder.cobbold.dev/sitemap.xml`.
+- Delete the unused `NEXT_PUBLIC_GA_MEASUREMENT_ID` variable in the Vercel project (the code reads `NEXT_PUBLIC_GA_ID`).
+- In GA admin, keep Enhanced measurement on (outbound clicks, site search with the `q` parameter).
+- If serving EU/UK visitors, add a Google-certified cookie consent tool (Google requires this for GA/AdSense in the EEA/UK).
+- Review the privacy policy at `/privacy`; it is a plain-language summary, not legal advice.
+- Apply for Google AdSense when the site has verified content. `NEXT_PUBLIC_ADSENSE_SLOT_ID` is already set; after approval also set `NEXT_PUBLIC_ADSENSE_CLIENT_ID` (`ca-pub-…`) and add `public/ads.txt`. Do not enable Auto ads.
 
 ## Optional improvements
 
@@ -52,6 +50,8 @@
 - Category pages (undergraduate, postgraduate, PhD, fully funded) and four guides, with internal linking
 - Metadata, canonical URLs, Open Graph, breadcrumb structured data, sitemap and robots (`/saved` excluded)
 - Environment-gated, labelled ad slots on home, category and guide pages only
-- Deployed to Vercel (project `ghana-scholarship-finder`, auto-deploys from `main`) at https://ghana-scholarship-finder.vercel.app with `NEXT_PUBLIC_SITE_URL` set; canonical URLs and robots verified on the live site
-- Google Analytics 4 integration (env-gated, off until `NEXT_PUBLIC_GA_ID` is set) with a `scholarship_saved` event; About page privacy text shown when GA is enabled
+- Deployed to Vercel (project `ghana-scholarship-finder`, auto-deploys from `main`) at https://ghanascholarshipfinder.cobbold.dev (`www` redirects to it); `NEXT_PUBLIC_SITE_URL` set, canonical URLs and robots verified on the live site
+- Google Analytics 4 live (`G-4991P4SN8B` via `NEXT_PUBLIC_GA_ID`) with a `scholarship_saved` event; tag verified on the live site
+- Privacy policy page (`/privacy`) covering local storage, analytics, advertising (when enabled) and hosting, with contact email; linked from footer and About page, included in sitemap
+- Contact email for listing corrections on the About page
 - Mobile layout checked at 375px width (no horizontal overflow) and save → saved page flow checked in Chromium

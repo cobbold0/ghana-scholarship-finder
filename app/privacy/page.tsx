@@ -42,8 +42,8 @@ export default function PrivacyPage() {
           <p>
             We use Google Analytics to understand how the site is used — for example which pages are viewed, what people
             search for, which scholarships are saved and which official links are opened. Google Analytics uses cookies
-            and collects information such as your approximate location, device and browser. We do not send your name,
-            contact details or documents to Google.
+            and collects information such as your approximate location, device and browser. Analytics cookies are only
+            used if you accept them in the cookie banner. We do not send your name, contact details or documents to Google.
           </p>
           <p>
             You can block analytics with your browser&apos;s privacy settings or the{" "}
@@ -59,14 +59,22 @@ export default function PrivacyPage() {
         <section className="space-y-2">
           <h2 className="text-xl font-semibold">Advertising</h2>
           <p>
-            We show ads from Google AdSense on some pages to keep the site free. Google and its partners use cookies to
-            serve ads based on your visits to this and other websites. You can turn off personalised advertising in{" "}
+            We show ads from Google AdSense on some pages to keep the site free. Ads are shown whether or not you accept
+            cookies. If you accept, Google and its partners may personalise ads based on your visits to this and other
+            websites; if you choose “No thanks”, you see non-personalised ads, which may still use cookies for things like
+            limiting how often an ad appears and preventing fraud. You can also manage personalised advertising in{" "}
             <a href="https://adssettings.google.com" className={linkClass} rel="noopener noreferrer" target="_blank">
               Google Ads Settings
             </a>
             .
           </p>
         </section>
+      )}
+
+      {(analytics || ads) && (
+        <p>
+          Use “Cookie settings” at the bottom of any page to change your cookie choice at any time.
+        </p>
       )}
 
       {(analytics || ads) && (

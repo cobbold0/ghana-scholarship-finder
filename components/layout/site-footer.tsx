@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SITE_NAME } from "@/lib/site";
+import { ConsentSettingsButton } from "./consent-banner";
 
 export function SiteFooter() {
   return (
@@ -15,6 +16,7 @@ export function SiteFooter() {
             <li><Link className="underline hover:text-slate-900" href="/guides">Guides</Link></li>
             <li><Link className="underline hover:text-slate-900" href="/categories">Categories</Link></li>
             <li><Link className="underline hover:text-slate-900" href="/privacy">Privacy</Link></li>
+            <li><ConsentSettingsButton /></li>
           </ul>
         </nav>
       </div>

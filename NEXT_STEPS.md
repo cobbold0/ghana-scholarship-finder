@@ -22,7 +22,7 @@
 - Add `ghanascholarshipfinder.cobbold.dev` to Google Search Console and submit `https://ghanascholarshipfinder.cobbold.dev/sitemap.xml`.
 - Delete the unused `NEXT_PUBLIC_GA_MEASUREMENT_ID` variable in the Vercel project (the code reads `NEXT_PUBLIC_GA_ID`).
 - In GA admin, keep Enhanced measurement on (outbound clicks, site search with the `q` parameter).
-- If serving EU/UK visitors, add a Google-certified cookie consent tool (Google requires this for GA/AdSense in the EEA/UK).
+- If the site will serve visitors in the EEA, UK or Switzerland, Google requires a Google-certified consent platform (IAB TCF) for AdSense there — e.g. enable AdSense “Privacy & messaging” for those regions. The built-in banner is fine for Ghana but is not TCF-certified.
 - Review the privacy policy at `/privacy`; it is a plain-language summary, not legal advice.
 - Apply for Google AdSense when the site has verified content. `NEXT_PUBLIC_ADSENSE_SLOT_ID` is already set; after approval also set `NEXT_PUBLIC_ADSENSE_CLIENT_ID` (`ca-pub-…`) and add `public/ads.txt`. Do not enable Auto ads.
 
@@ -45,6 +45,7 @@
 
 ## Completed
 
+- Cookie consent banner with Google Consent Mode v2: shown only when GA or AdSense is configured; ads always show, while personalised ads and analytics cookies wait for “Accept”; “No thanks” gives non-personalised ads; choice stored locally and changeable via “Cookie settings” in the footer (verified in browser)
 - Next.js 16 + TypeScript + Tailwind app scaffolded; lint, type check, 30 tests and production build pass
 - Zod-validated scholarship data model in `data/scholarships/`, separate from UI, with archive support
 - 19 listings (9 starter + 10 added: Fulbright FSP Ghana, Commonwealth PhD, DAAD EPOS, Swedish Institute, Joint Japan/World Bank, MEXT, Chinese Government, Australia Awards Africa, Ghana Scholarships Authority local tertiary, GNPC Foundation), all labelled Unverified with reported deadlines flagged; "Study in Ghana" category now published

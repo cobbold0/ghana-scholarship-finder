@@ -63,6 +63,10 @@ Google Analytics 4 loads only when `NEXT_PUBLIC_GA_ID` is set (via `@next/third-
 
 `components/ads/ad-slot.tsx` renders a labelled AdSense unit only when `NEXT_PUBLIC_ADSENSE_CLIENT_ID` and `NEXT_PUBLIC_ADSENSE_SLOT_ID` are set. It is placed on the home, category and guide pages only — never on scholarship detail pages or near application links. Do not enable AdSense Auto ads, which would place ads on detail pages.
 
+## Cookie consent
+
+When GA or AdSense is configured, a banner asks for consent (Google Consent Mode v2, `lib/consent.ts`). Ads always show: `ad_storage` is granted by default so non-personalised ads work. `ad_user_data`, `ad_personalization` and `analytics_storage` stay denied until the visitor clicks “Accept”; “No thanks” also sets AdSense `requestNonPersonalizedAds`. The choice is stored in `localStorage` and can be changed from “Cookie settings” in the footer.
+
 ## Live site
 
 Production: https://ghanascholarshipfinder.cobbold.dev (Vercel project `ghana-scholarship-finder`, auto-deploys from `main`). Production environment variables: `NEXT_PUBLIC_SITE_URL`, `NEXT_PUBLIC_GA_ID`, `NEXT_PUBLIC_ADSENSE_SLOT_ID` (ads stay off until `NEXT_PUBLIC_ADSENSE_CLIENT_ID` is also set).

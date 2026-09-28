@@ -1,18 +1,13 @@
 "use client";
 
 import { useEffect } from "react";
+import { ADSENSE_CLIENT as CLIENT_ID } from "@/lib/consent";
 
-const CLIENT_ID = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
 const SLOT_ID = process.env.NEXT_PUBLIC_ADSENSE_SLOT_ID;
 
-declare global {
-  interface Window {
-    adsbygoogle?: unknown[];
-  }
-}
-
 /**
- * Manual AdSense unit, clearly labelled. Renders nothing until AdSense is configured.
+ * Manual AdSense unit, clearly labelled. Renders nothing until AdSense is configured. Ads show whether or
+ * not the visitor consents; without consent they are non-personalised (see lib/consent.ts).
  * Only place on content pages (home, guides, categories) — never on scholarship detail pages or next to application links.
  */
 export function AdSlot() {

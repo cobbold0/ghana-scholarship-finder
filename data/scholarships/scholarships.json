@@ -6,11 +6,18 @@
     "provider": "UK Foreign, Commonwealth & Development Office (Chevening)",
     "summary": "UK government scholarships for one-year master's degrees at UK universities, for future leaders from Chevening-eligible countries, including Ghana.",
     "description": "Chevening is the UK government's international scholarships programme. Awards are for a one-year taught master's degree at an eligible UK university. Selection focuses on leadership potential and professional experience, and scholars are expected to return home after their studies.",
-    "eligibleCountries": ["Ghana", "Other Chevening-eligible countries"],
-    "educationLevels": ["masters"],
+    "eligibleCountries": [
+      "Ghana",
+      "Other Chevening-eligible countries"
+    ],
+    "educationLevels": [
+      "masters"
+    ],
     "fieldsOfStudy": [],
     "studyLocation": "international",
-    "hostCountries": ["United Kingdom"],
+    "hostCountries": [
+      "United Kingdom"
+    ],
     "fundingType": "full",
     "fundingCoverage": [
       "University tuition fees",
@@ -47,11 +54,18 @@
     "provider": "Commonwealth Scholarship Commission in the UK",
     "summary": "Funded master's study in the UK for candidates from eligible low- and middle-income Commonwealth countries, including Ghana. Applicants must be nominated by a national nominating agency.",
     "description": "Commonwealth Master's Scholarships are funded by the UK government and managed by the Commonwealth Scholarship Commission (CSC). They support students from eligible Commonwealth countries whose study will contribute to development in their home country.",
-    "eligibleCountries": ["Ghana", "Other eligible Commonwealth countries"],
-    "educationLevels": ["masters"],
+    "eligibleCountries": [
+      "Ghana",
+      "Other eligible Commonwealth countries"
+    ],
+    "educationLevels": [
+      "masters"
+    ],
     "fieldsOfStudy": [],
     "studyLocation": "international",
-    "hostCountries": ["United Kingdom"],
+    "hostCountries": [
+      "United Kingdom"
+    ],
     "fundingType": "full",
     "fundingCoverage": [
       "Approved tuition fees",
@@ -84,11 +98,20 @@
     "provider": "Rhodes Trust",
     "summary": "Postgraduate study at the University of Oxford for outstanding young people from West African countries, including Ghana.",
     "description": "The Rhodes Scholarship funds postgraduate study at the University of Oxford. A small number of scholarships are allocated to the West Africa constituency each year.",
-    "eligibleCountries": ["Ghana", "Nigeria", "Other West African countries in the constituency"],
-    "educationLevels": ["masters", "phd"],
+    "eligibleCountries": [
+      "Ghana",
+      "Nigeria",
+      "Other West African countries in the constituency"
+    ],
+    "educationLevels": [
+      "masters",
+      "phd"
+    ],
     "fieldsOfStudy": [],
     "studyLocation": "international",
-    "hostCountries": ["United Kingdom"],
+    "hostCountries": [
+      "United Kingdom"
+    ],
     "fundingType": "full",
     "fundingCoverage": [
       "University and college fees",
@@ -121,11 +144,18 @@
     "title": "Mandela Rhodes Scholarship",
     "provider": "The Mandela Rhodes Foundation",
     "summary": "Postgraduate scholarships (Honours or Master's) at South African universities for young African leaders, combined with a leadership development programme.",
-    "eligibleCountries": ["Ghana", "Other African countries"],
-    "educationLevels": ["masters"],
+    "eligibleCountries": [
+      "Ghana",
+      "Other African countries"
+    ],
+    "educationLevels": [
+      "masters"
+    ],
     "fieldsOfStudy": [],
     "studyLocation": "africa",
-    "hostCountries": ["South Africa"],
+    "hostCountries": [
+      "South Africa"
+    ],
     "fundingType": "full",
     "fundingCoverage": [
       "Tuition for a one-year Honours or two-year Master's degree",
@@ -155,11 +185,20 @@
     "title": "Stipendium Hungaricum Scholarship",
     "provider": "Government of Hungary (Tempus Public Foundation)",
     "summary": "Hungarian government scholarships for bachelor's, master's and doctoral study in Hungary for students from partner countries. Ghana is reported to be a partner country.",
-    "eligibleCountries": ["Ghana", "Other Stipendium Hungaricum partner countries"],
-    "educationLevels": ["undergraduate", "masters", "phd"],
+    "eligibleCountries": [
+      "Ghana",
+      "Other Stipendium Hungaricum partner countries"
+    ],
+    "educationLevels": [
+      "undergraduate",
+      "masters",
+      "phd"
+    ],
     "fieldsOfStudy": [],
     "studyLocation": "international",
-    "hostCountries": ["Hungary"],
+    "hostCountries": [
+      "Hungary"
+    ],
     "fundingType": "full",
     "fundingCoverage": [
       "Tuition-free study",
@@ -192,11 +231,18 @@
     "title": "Gates Cambridge Scholarship",
     "provider": "Gates Cambridge Trust, University of Cambridge",
     "summary": "Full-cost scholarships for outstanding applicants from any country outside the UK to pursue a full-time postgraduate degree at the University of Cambridge.",
-    "eligibleCountries": ["Any country outside the United Kingdom (including Ghana)"],
-    "educationLevels": ["masters", "phd"],
+    "eligibleCountries": [
+      "Any country outside the United Kingdom (including Ghana)"
+    ],
+    "educationLevels": [
+      "masters",
+      "phd"
+    ],
     "fieldsOfStudy": [],
     "studyLocation": "international",
-    "hostCountries": ["United Kingdom"],
+    "hostCountries": [
+      "United Kingdom"
+    ],
     "fundingType": "full",
     "fundingCoverage": [
       "Full cost of study at Cambridge (fees and maintenance), as defined by the Gates Cambridge Trust"
@@ -223,11 +269,18 @@
     "title": "Mastercard Foundation Scholars Program at KNUST",
     "provider": "Kwame Nkrumah University of Science and Technology (KNUST) with the Mastercard Foundation",
     "summary": "Comprehensive scholarships for academically qualified young people with financial need to study at KNUST in Kumasi.",
-    "eligibleCountries": ["Ghana", "Other African countries"],
-    "educationLevels": ["undergraduate"],
+    "eligibleCountries": [
+      "Ghana",
+      "Other African countries"
+    ],
+    "educationLevels": [
+      "undergraduate"
+    ],
     "fieldsOfStudy": [],
     "studyLocation": "ghana",
-    "hostCountries": ["Ghana"],
+    "hostCountries": [
+      "Ghana"
+    ],
     "fundingType": "full",
     "fundingCoverage": [
       "Full tuition",
@@ -259,11 +312,18 @@
     "title": "Mastercard Foundation Scholars Program at Ashesi University",
     "provider": "Ashesi University with the Mastercard Foundation",
     "summary": "Scholarships for academically talented African students with financial need to study at Ashesi University in Berekuso, Ghana.",
-    "eligibleCountries": ["Ghana", "Other African countries"],
-    "educationLevels": ["undergraduate"],
+    "eligibleCountries": [
+      "Ghana",
+      "Other African countries"
+    ],
+    "educationLevels": [
+      "undergraduate"
+    ],
     "fieldsOfStudy": [],
     "studyLocation": "ghana",
-    "hostCountries": ["Ghana"],
+    "hostCountries": [
+      "Ghana"
+    ],
     "fundingType": "full",
     "fundingCoverage": [
       "Tuition",
@@ -294,11 +354,17 @@
     "provider": "European Union (Erasmus+)",
     "summary": "EU-funded scholarships for integrated master's programmes delivered by consortia of universities in two or more European countries. Open to students worldwide.",
     "description": "Each Erasmus Mundus Joint Master is run by a consortium of universities that sets its own admission requirements and deadlines. There is no single central application.",
-    "eligibleCountries": ["Any country (including Ghana)"],
-    "educationLevels": ["masters"],
+    "eligibleCountries": [
+      "Any country (including Ghana)"
+    ],
+    "educationLevels": [
+      "masters"
+    ],
     "fieldsOfStudy": [],
     "studyLocation": "international",
-    "hostCountries": ["European Union countries"],
+    "hostCountries": [
+      "European Union countries"
+    ],
     "fundingType": "full",
     "fundingCoverage": [
       "Participation costs (including tuition)",
@@ -320,5 +386,428 @@
     "sourceUrl": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters",
     "createdAt": "2026-09-28",
     "updatedAt": "2026-09-28"
+  },
+  {
+    "fieldsOfStudy": [
+      "Artificial intelligence",
+      "Cyber security",
+      "Disease prevention",
+      "Health digitization",
+      "STEM",
+      "Supply chain management",
+      "Trade",
+      "Conflict negotiation"
+    ],
+    "requirements": [],
+    "status": "unverified",
+    "createdAt": "2026-09-29",
+    "updatedAt": "2026-09-29",
+    "id": "fulbright-fsp-ghana",
+    "slug": "fulbright-foreign-student-program-ghana",
+    "title": "Fulbright Foreign Student Program (Ghana)",
+    "provider": "U.S. Department of State, administered by the U.S. Embassy in Ghana",
+    "summary": "Funding for up to two years of master's or doctoral study in the United States for Ghanaian staff, junior faculty and administrators at tertiary, research or government institutions.",
+    "eligibleCountries": [
+      "Ghana"
+    ],
+    "educationLevels": [
+      "masters",
+      "phd"
+    ],
+    "studyLocation": "international",
+    "hostCountries": [
+      "United States"
+    ],
+    "fundingType": "full",
+    "fundingCoverage": [
+      "Funding toward a master's or doctoral degree in the United States for up to two years (see the embassy announcement for what is covered)"
+    ],
+    "eligibility": [
+      "Ghanaian citizen currently residing in Ghana (dual U.S. citizens are not eligible)",
+      "Employed at a tertiary, research or government institution",
+      "Pursuing study or research in one of the priority fields listed by the embassy for this cycle"
+    ],
+    "applicationInstructions": [
+      "Read the current call on the U.S. Embassy in Ghana website.",
+      "Apply online through the Foreign Fulbright application system before the national deadline."
+    ],
+    "deadline": "2026-10-06",
+    "deadlineVerified": false,
+    "deadlineNote": "Reported national deadline for the 2027–2028 cycle (5 p.m. U.S. Eastern Time). Not yet confirmed on the official embassy page.",
+    "officialUrl": "https://gh.usembassy.gov/fulbright-foreign-student-program-fulbright-fsp-2/",
+    "sourceUrl": "https://gh.usembassy.gov/fulbright-foreign-student-program-fulbright-fsp-2/"
+  },
+  {
+    "fieldsOfStudy": [],
+    "requirements": [],
+    "status": "unverified",
+    "createdAt": "2026-09-29",
+    "updatedAt": "2026-09-29",
+    "id": "commonwealth-phd",
+    "slug": "commonwealth-phd-scholarships",
+    "title": "Commonwealth PhD Scholarships",
+    "provider": "Commonwealth Scholarship Commission in the UK",
+    "summary": "Funded full-time doctoral study at a UK university for candidates from eligible Commonwealth countries, including Ghana. Applicants must be nominated by a national nominating agency.",
+    "eligibleCountries": [
+      "Ghana",
+      "Other eligible Commonwealth countries"
+    ],
+    "educationLevels": [
+      "phd"
+    ],
+    "studyLocation": "international",
+    "hostCountries": [
+      "United Kingdom"
+    ],
+    "fundingType": "full",
+    "fundingCoverage": [
+      "Approved tuition fees",
+      "Return airfare to the UK",
+      "Monthly living allowance (stipend)"
+    ],
+    "eligibility": [
+      "Citizen of, or refugee from, an eligible Commonwealth country, and permanently resident there",
+      "Unable to afford to study in the UK without the scholarship",
+      "Meet the academic requirements for UK doctoral study"
+    ],
+    "applicationInstructions": [
+      "You must be nominated by an approved nominating agency in Ghana. Contact the agency first — its internal deadline may be earlier than the CSC deadline.",
+      "Complete your application in the CSC online application system before the deadline."
+    ],
+    "deadline": "2026-10-20",
+    "deadlineVerified": false,
+    "deadlineNote": "Reported CSC closing date for study starting in 2027. Nominating-agency deadlines in Ghana may be earlier. Not yet confirmed on the official CSC website.",
+    "officialUrl": "https://cscuk.fcdo.gov.uk/apply/",
+    "sourceUrl": "https://cscuk.fcdo.gov.uk/apply/"
+  },
+  {
+    "fieldsOfStudy": [
+      "Development-related fields"
+    ],
+    "requirements": [],
+    "status": "unverified",
+    "createdAt": "2026-09-29",
+    "updatedAt": "2026-09-29",
+    "id": "daad-epos",
+    "slug": "daad-epos-development-related-postgraduate-courses",
+    "title": "DAAD EPOS: Development-Related Postgraduate Courses",
+    "provider": "German Academic Exchange Service (DAAD)",
+    "summary": "Scholarships for professionals from developing and emerging countries to take selected development-related master's (and some PhD) courses at German universities.",
+    "eligibleCountries": [
+      "Ghana",
+      "Other eligible developing and emerging countries"
+    ],
+    "educationLevels": [
+      "masters",
+      "phd"
+    ],
+    "studyLocation": "international",
+    "hostCountries": [
+      "Germany"
+    ],
+    "fundingType": "full",
+    "fundingCoverage": [
+      "Monthly stipend, insurance and travel allowance as set by DAAD for the course"
+    ],
+    "eligibility": [
+      "Citizen of a country on the DAAD EPOS list of eligible countries",
+      "Bachelor's degree (usually four years) in a relevant subject",
+      "At least two years of professional experience",
+      "Language requirements set by the chosen course"
+    ],
+    "applicationInstructions": [
+      "Choose a course from the official DAAD EPOS list for the current intake.",
+      "Apply directly to that course — each has its own application process and deadline."
+    ],
+    "deadlineNote": "No single deadline: each participating course sets its own. For courses starting in 2027, deadlines are reported to fall mostly between 1 October and 15 December 2026.",
+    "officialUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50076777",
+    "sourceUrl": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50076777"
+  },
+  {
+    "fieldsOfStudy": [],
+    "requirements": [],
+    "status": "unverified",
+    "createdAt": "2026-09-29",
+    "updatedAt": "2026-09-29",
+    "id": "swedish-institute-sisgp",
+    "slug": "swedish-institute-scholarships-global-professionals",
+    "title": "Swedish Institute Scholarships for Global Professionals",
+    "provider": "Swedish Institute",
+    "summary": "Scholarships for full-time master's studies in Sweden for professionals from eligible countries, including Ghana.",
+    "eligibleCountries": [
+      "Ghana",
+      "Other eligible countries"
+    ],
+    "educationLevels": [
+      "masters"
+    ],
+    "studyLocation": "international",
+    "hostCountries": [
+      "Sweden"
+    ],
+    "fundingType": "full",
+    "fundingCoverage": [
+      "Tuition fees",
+      "Living costs",
+      "Travel grant"
+    ],
+    "eligibility": [
+      "Citizen of an eligible country (Ghana is listed)",
+      "Work experience requirement (reported as at least 3,000 hours) — check the exact rules for the current cycle",
+      "Admitted to an eligible master's programme in Sweden"
+    ],
+    "applicationInstructions": [
+      "Apply for an eligible master's programme through University Admissions in Sweden.",
+      "Then apply for the scholarship through the Swedish Institute before its deadline."
+    ],
+    "deadline": "2027-02-10",
+    "deadlineVerified": false,
+    "deadlineNote": "Reported scholarship deadline for the 2027 cycle. University admission deadlines come earlier. Not yet confirmed on the official website.",
+    "officialUrl": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
+    "sourceUrl": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/"
+  },
+  {
+    "fieldsOfStudy": [
+      "Development-related fields"
+    ],
+    "requirements": [],
+    "status": "unverified",
+    "createdAt": "2026-09-29",
+    "updatedAt": "2026-09-29",
+    "id": "jj-wbgsp",
+    "slug": "joint-japan-world-bank-graduate-scholarship",
+    "title": "Joint Japan/World Bank Graduate Scholarship Program",
+    "provider": "World Bank, funded by the Government of Japan",
+    "summary": "Master's scholarships in development-related fields for mid-career professionals from developing countries, including Ghana.",
+    "eligibleCountries": [
+      "Ghana",
+      "Other eligible World Bank member developing countries"
+    ],
+    "educationLevels": [
+      "masters"
+    ],
+    "studyLocation": "international",
+    "hostCountries": [
+      "Participating universities worldwide"
+    ],
+    "fundingType": "full",
+    "fundingCoverage": [
+      "Tuition",
+      "Living stipend",
+      "Airfare",
+      "Other associated costs as set by the program"
+    ],
+    "eligibility": [
+      "National of an eligible developing country, without dual citizenship of a developed country",
+      "Bachelor's degree earned at least three years before the deadline",
+      "Employed full-time in development-related work, generally with at least three years of such experience",
+      "Unconditionally admitted to a participating master's programme"
+    ],
+    "applicationInstructions": [
+      "Secure admission to one of the participating master's programmes.",
+      "Apply through the World Bank scholarship portal during one of the application windows."
+    ],
+    "deadline": "2027-02-26",
+    "deadlineVerified": false,
+    "deadlineNote": "Reported 2027 windows: 18 January–26 February 2027 and 29 March–21 May 2027. Not yet confirmed on the official World Bank page.",
+    "officialUrl": "https://www.worldbank.org/en/programs/scholarships",
+    "sourceUrl": "https://www.worldbank.org/en/programs/scholarships"
+  },
+  {
+    "fieldsOfStudy": [],
+    "requirements": [],
+    "status": "unverified",
+    "createdAt": "2026-09-29",
+    "updatedAt": "2026-09-29",
+    "id": "mext-research-ghana",
+    "slug": "mext-japanese-government-scholarship-research",
+    "title": "Japanese Government (MEXT) Scholarship — Research Students",
+    "provider": "Government of Japan (MEXT), via the Embassy of Japan in Ghana",
+    "summary": "Scholarships for Ghanaians to pursue master's or doctoral study at Japanese graduate schools, including an initial period of Japanese language study.",
+    "eligibleCountries": [
+      "Ghana"
+    ],
+    "educationLevels": [
+      "masters",
+      "phd"
+    ],
+    "studyLocation": "international",
+    "hostCountries": [
+      "Japan"
+    ],
+    "fundingType": "full",
+    "fundingCoverage": [
+      "Scholarship support for 18 months to two years, including up to six months of Japanese language study (see the official guidelines for allowances)"
+    ],
+    "eligibility": [
+      "Ghanaian citizen",
+      "Age limit applies (for the 2027 intake, born on or after 2 April 1992)",
+      "Willing to learn Japanese",
+      "Meets the academic requirements in the official application guidelines"
+    ],
+    "applicationInstructions": [
+      "Download the application guidelines and forms from the Study in Japan website.",
+      "Submit the completed forms as instructed in the Embassy of Japan in Ghana announcement."
+    ],
+    "deadline": "2026-05-29",
+    "deadlineVerified": false,
+    "deadlineNote": "The 2027 intake reportedly closed on 29 May 2026. Dates for the next cycle have not been confirmed.",
+    "officialUrl": "https://www.gh.emb-japan.go.jp/itpr_ja/11_000001_00538.html",
+    "sourceUrl": "https://www.studyinjapan.go.jp/en/smap_stopj-applications_research.html"
+  },
+  {
+    "fieldsOfStudy": [],
+    "requirements": [],
+    "status": "unverified",
+    "createdAt": "2026-09-29",
+    "updatedAt": "2026-09-29",
+    "id": "chinese-government-bilateral",
+    "slug": "chinese-government-scholarship-bilateral",
+    "title": "Chinese Government Scholarship (Bilateral Program)",
+    "provider": "Government of China (China Scholarship Council), via the Chinese Embassy in Ghana",
+    "summary": "Chinese government scholarships for Ghanaian students to study in China, offered through the embassy (bilateral) channel.",
+    "eligibleCountries": [
+      "Ghana"
+    ],
+    "educationLevels": [
+      "undergraduate",
+      "masters",
+      "phd"
+    ],
+    "studyLocation": "international",
+    "hostCountries": [
+      "China"
+    ],
+    "fundingType": "varies",
+    "eligibility": [
+      "Ghanaian citizen",
+      "Meets the admission requirements of the chosen Chinese university"
+    ],
+    "applicationInstructions": [
+      "Check the official Campus China website for universities and programs.",
+      "Obtain any required pre-admission documents from your chosen university.",
+      "Apply online and follow the Chinese Embassy in Ghana's instructions for the bilateral program."
+    ],
+    "deadlineNote": "The current cycle's deadline has not been confirmed. The previous cycle's online deadline was reported to be in mid-February.",
+    "officialUrl": "https://www.campuschina.org/",
+    "sourceUrl": "https://scholarships.gov.gh/?p=486"
+  },
+  {
+    "fieldsOfStudy": [],
+    "requirements": [],
+    "status": "unverified",
+    "createdAt": "2026-09-29",
+    "updatedAt": "2026-09-29",
+    "id": "australia-awards-africa",
+    "slug": "australia-awards-africa-masters",
+    "title": "Australia Awards Africa — Master's Scholarships",
+    "provider": "Australian Government (Department of Foreign Affairs and Trade)",
+    "summary": "Scholarships for mid-career professionals from eligible African countries, including Ghana, to complete a master's degree in Australia.",
+    "eligibleCountries": [
+      "Ghana",
+      "Other eligible African countries"
+    ],
+    "educationLevels": [
+      "masters"
+    ],
+    "studyLocation": "international",
+    "hostCountries": [
+      "Australia"
+    ],
+    "fundingType": "full",
+    "fundingCoverage": [
+      "See the official intake profile for what the scholarship covers"
+    ],
+    "eligibility": [
+      "Citizen of an eligible African country (Ghana is listed)",
+      "Minimum age and work-experience requirements set out in the official intake profile",
+      "Employed at the time of applying"
+    ],
+    "applicationInstructions": [
+      "Read the Africa intake profile and eligibility page on the Australia Awards Africa website.",
+      "Apply online when the application round opens."
+    ],
+    "deadlineNote": "The next round is reported to open from 1 February 2027. The closing date has not been confirmed.",
+    "officialUrl": "https://australiaawardsafrica.org/awards/eligibility/",
+    "sourceUrl": "https://australiaawardsafrica.org/resources/Africa-Profile-2027-Intake.pdf"
+  },
+  {
+    "fieldsOfStudy": [],
+    "requirements": [],
+    "status": "unverified",
+    "createdAt": "2026-09-29",
+    "updatedAt": "2026-09-29",
+    "id": "gsa-local-tertiary",
+    "slug": "ghana-scholarships-authority-local-tertiary",
+    "title": "Ghana Scholarships Authority — Local Tertiary Scholarship",
+    "provider": "Ghana Scholarships Authority",
+    "summary": "Government scholarship for academically gifted but financially challenged Ghanaian students admitted to accredited tertiary institutions in Ghana.",
+    "eligibleCountries": [
+      "Ghana"
+    ],
+    "educationLevels": [
+      "undergraduate"
+    ],
+    "studyLocation": "ghana",
+    "hostCountries": [
+      "Ghana"
+    ],
+    "fundingType": "varies",
+    "eligibility": [
+      "Ghanaian citizen with a valid Ghana Card",
+      "Admitted to an accredited tertiary institution in Ghana",
+      "Academically strong with financial need"
+    ],
+    "applicationInstructions": [
+      "Apply online through the Ghana Scholarships Authority portal during the application window and upload the required documents.",
+      "The Authority states its services are free and no third party is engaged to assist applicants."
+    ],
+    "deadline": "2026-05-20",
+    "deadlineVerified": false,
+    "deadlineNote": "The 2026/2027 window was reported as 20 April–20 May 2026. Dates for the next intake have not been confirmed.",
+    "officialUrl": "https://scholarships.gov.gh/local-information",
+    "sourceUrl": "https://scholarships.gov.gh/opportunities/local-tertiary-scholarship-applications-for-20262027-academic-year"
+  },
+  {
+    "fieldsOfStudy": [],
+    "requirements": [],
+    "status": "unverified",
+    "createdAt": "2026-09-29",
+    "updatedAt": "2026-09-29",
+    "id": "gnpc-foundation-undergraduate",
+    "slug": "gnpc-foundation-undergraduate-scholarship",
+    "title": "GNPC Foundation Undergraduate Scholarship",
+    "provider": "Ghana National Petroleum Corporation (GNPC) Foundation",
+    "summary": "Limited undergraduate scholarships for Ghanaian students at accredited tertiary institutions in Ghana.",
+    "eligibleCountries": [
+      "Ghana"
+    ],
+    "educationLevels": [
+      "undergraduate"
+    ],
+    "studyLocation": "ghana",
+    "hostCountries": [
+      "Ghana"
+    ],
+    "fundingType": "full",
+    "fundingCoverage": [
+      "Tuition",
+      "Living expenses",
+      "Book allowance",
+      "Dissertation/project allowance"
+    ],
+    "eligibility": [
+      "Ghanaian first-year or continuing student at an accredited tertiary institution in Ghana",
+      "Not already a beneficiary of another scholarship scheme",
+      "First-year applicants: credit passes in six WASSCE/SSSCE subjects, including core subjects (as reported)"
+    ],
+    "applicationInstructions": [
+      "Check the GNPC Foundation website for the current call and apply through its official application portal."
+    ],
+    "deadline": "2026-12-31",
+    "deadlineVerified": false,
+    "deadlineNote": "A 31 December 2026 deadline for 2026/2027 was reported by third-party sites. Not yet confirmed by GNPC.",
+    "officialUrl": "https://www.gnpcghana.com/gnpc-foundation",
+    "sourceUrl": "https://www.gnpcghana.com/gnpc-foundation"
   }
 ]

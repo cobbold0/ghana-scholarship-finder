@@ -2,7 +2,7 @@
 
 ## Owner must do
 
-- **Verify every scholarship listing before public launch.** The build environment could not reach official provider websites, so all 9 listings are marked **Unverified**. Their details come from well-known programme information and search-result summaries of official pages. For each record in `data/scholarships/scholarships.json`:
+- **Verify every scholarship listing before public launch.** The build environment could not reach official provider websites, so all 19 listings are marked **Unverified**. Their details come from well-known programme information and search-result summaries of official pages. For each record in `data/scholarships/scholarships.json`:
   - open `officialUrl` and `sourceUrl`, confirm the links work and point to the right page;
   - confirm eligibility, funding coverage, application steps and the current deadline;
   - then set `lastVerifiedAt`, `status`, `deadline` and `deadlineVerified: true` (see README → Managing scholarship data).
@@ -13,6 +13,12 @@
   - Rhodes West Africa (reported closed 27 Aug 2026), Mandela Rhodes (reported closed 14 Apr 2026), Stipendium Hungaricum (last reported deadline 15 Jan 2026) — confirm next-cycle dates.
   - Mastercard Foundation at KNUST and Ashesi — confirm the current call for applications.
   - Stipendium Hungaricum — confirm Ghana's partner-country status and the Ghana sending partner.
+  - Fulbright FSP Ghana — reported deadline 6 October 2026; confirm eligible fields for this cycle.
+  - Commonwealth PhD — reported CSC deadline 20 October 2026; confirm Ghana is eligible for the PhD scheme and the nominating agency's deadline, and replace `officialUrl` with the scheme's own page.
+  - DAAD EPOS — confirm Ghana is on the eligible-country list and the course deadlines.
+  - GNPC Foundation — reported 31 December 2026 deadline comes from third-party sites; confirm with GNPC and add the official application link.
+  - Swedish Institute (10 Feb 2027), Joint Japan/World Bank (windows Jan–May 2027), Australia Awards Africa (opens 1 Feb 2027) — confirm dates and eligibility.
+  - MEXT, Chinese Government, Ghana Scholarships Authority local tertiary — confirm next-cycle dates.
 - Add `ghanascholarshipfinder.cobbold.dev` to Google Search Console and submit `https://ghanascholarshipfinder.cobbold.dev/sitemap.xml`.
 - Delete the unused `NEXT_PUBLIC_GA_MEASUREMENT_ID` variable in the Vercel project (the code reads `NEXT_PUBLIC_GA_ID`).
 - In GA admin, keep Enhanced measurement on (outbound clicks, site search with the `q` parameter).
@@ -22,8 +28,7 @@
 
 ## Optional improvements
 
-- Add more verified scholarships (e.g. Fulbright, DAAD, MEXT, Australia Awards, Ghana government scholarships), enabling more categories and the field-of-study and status filters
-- Add a "Study in Ghana" category once it has at least three listings (already defined; published automatically)
+- Add more scholarships (e.g. Holland Scholarship, Chevening partner awards, university-specific awards in Ghana)
 - Explicit analytics events for `filter_applied` and `application_link_clicked` if Enhanced measurement proves insufficient
 - Build an admin scholarship-management interface
 - Add bulk import and duplicate detection
@@ -42,7 +47,7 @@
 
 - Next.js 16 + TypeScript + Tailwind app scaffolded; lint, type check, 30 tests and production build pass
 - Zod-validated scholarship data model in `data/scholarships/`, separate from UI, with archive support
-- 9 starter listings with official links, all clearly labelled Unverified with reported deadlines flagged
+- 19 listings (9 starter + 10 added: Fulbright FSP Ghana, Commonwealth PhD, DAAD EPOS, Swedish Institute, Joint Japan/World Bank, MEXT, Chinese Government, Australia Awards Africa, Ghana Scholarships Authority local tertiary, GNPC Foundation), all labelled Unverified with reported deadlines flagged; "Study in Ghana" category now published
 - Mobile-first homepage with search, listings, categories and how-it-works
 - Scholarship directory with keyword search, combined filters (level, location, field, funding, status, deadline), sorting, reset and empty state
 - Detail pages with status, deadline, eligibility, funding, documents, application steps, prominent official link, source and verification info, and honest labels for missing data; 404 for unknown slugs

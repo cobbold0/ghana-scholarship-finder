@@ -48,6 +48,6 @@ describe("dataset", () => {
 
   it("only publishes categories with enough listings", () => {
     for (const c of getCategories()) expect(getCategoryScholarships(c).length).toBeGreaterThanOrEqual(MIN_CATEGORY_SIZE);
-    expect(getCategories().some((c) => c.slug === "study-in-ghana")).toBe(false);
+    expect(getCategories(getScholarships().slice(0, 2))).toEqual([]);
   });
 });

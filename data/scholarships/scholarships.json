@@ -1,0 +1,324 @@
+[
+  {
+    "id": "chevening",
+    "slug": "chevening-scholarships",
+    "title": "Chevening Scholarships",
+    "provider": "UK Foreign, Commonwealth & Development Office (Chevening)",
+    "summary": "UK government scholarships for one-year master's degrees at UK universities, for future leaders from Chevening-eligible countries, including Ghana.",
+    "description": "Chevening is the UK government's international scholarships programme. Awards are for a one-year taught master's degree at an eligible UK university. Selection focuses on leadership potential and professional experience, and scholars are expected to return home after their studies.",
+    "eligibleCountries": ["Ghana", "Other Chevening-eligible countries"],
+    "educationLevels": ["masters"],
+    "fieldsOfStudy": [],
+    "studyLocation": "international",
+    "hostCountries": ["United Kingdom"],
+    "fundingType": "full",
+    "fundingCoverage": [
+      "University tuition fees",
+      "Monthly living allowance (stipend)",
+      "Return travel to the UK",
+      "Additional allowances as set by Chevening"
+    ],
+    "eligibility": [
+      "Citizen of a Chevening-eligible country (Ghana is listed)",
+      "Commit to return to your country of citizenship for at least two years after the award ends",
+      "Hold an undergraduate degree that allows entry to a UK postgraduate programme",
+      "Have at least two years (2,800 hours) of work experience",
+      "Apply to three different eligible UK courses and hold an unconditional offer from one of them by the stated deadline"
+    ],
+    "requirements": [],
+    "applicationInstructions": [
+      "Apply online through the official Chevening website during the application window.",
+      "Apply separately to your chosen UK universities; you must secure an unconditional offer by the Chevening offer deadline (reported as 8 July 2027 for the 2027/28 cycle).",
+      "Shortlisted applicants are invited to an interview."
+    ],
+    "deadline": "2026-10-06",
+    "deadlineVerified": false,
+    "deadlineNote": "Reported for the 2027/28 cycle (closing 11:00 UTC). Not yet confirmed on the official Chevening website.",
+    "status": "unverified",
+    "officialUrl": "https://www.chevening.org/scholarship/ghana/",
+    "sourceUrl": "https://www.chevening.org/scholarships/application-timeline/",
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "commonwealth-masters",
+    "slug": "commonwealth-masters-scholarships",
+    "title": "Commonwealth Master's Scholarships",
+    "provider": "Commonwealth Scholarship Commission in the UK",
+    "summary": "Funded master's study in the UK for candidates from eligible low- and middle-income Commonwealth countries, including Ghana. Applicants must be nominated by a national nominating agency.",
+    "description": "Commonwealth Master's Scholarships are funded by the UK government and managed by the Commonwealth Scholarship Commission (CSC). They support students from eligible Commonwealth countries whose study will contribute to development in their home country.",
+    "eligibleCountries": ["Ghana", "Other eligible Commonwealth countries"],
+    "educationLevels": ["masters"],
+    "fieldsOfStudy": [],
+    "studyLocation": "international",
+    "hostCountries": ["United Kingdom"],
+    "fundingType": "full",
+    "fundingCoverage": [
+      "Approved tuition fees",
+      "Return airfare to the UK",
+      "Monthly living allowance (stipend)"
+    ],
+    "eligibility": [
+      "Citizen of, or refugee from, an eligible Commonwealth country, and permanently resident there",
+      "Hold a first degree of at least upper second-class (2:1) honours standard, or a lower second-class degree plus a relevant postgraduate qualification",
+      "Unable to afford to study in the UK without the scholarship"
+    ],
+    "requirements": [],
+    "applicationInstructions": [
+      "You must be nominated by an approved nominating agency in Ghana. Contact the agency first — its internal deadline may be earlier than the CSC deadline.",
+      "Complete your application in the CSC online application system before the deadline."
+    ],
+    "deadline": "2026-10-20",
+    "deadlineVerified": false,
+    "deadlineNote": "Reported CSC closing date for the 2027/28 cycle (16:00 BST). Nominating-agency deadlines in Ghana may be earlier. Not yet confirmed on the official CSC website.",
+    "status": "unverified",
+    "officialUrl": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
+    "sourceUrl": "https://cscuk.fcdo.gov.uk/apply/",
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "rhodes-west-africa",
+    "slug": "rhodes-scholarship-west-africa",
+    "title": "Rhodes Scholarship for West Africa",
+    "provider": "Rhodes Trust",
+    "summary": "Postgraduate study at the University of Oxford for outstanding young people from West African countries, including Ghana.",
+    "description": "The Rhodes Scholarship funds postgraduate study at the University of Oxford. A small number of scholarships are allocated to the West Africa constituency each year.",
+    "eligibleCountries": ["Ghana", "Nigeria", "Other West African countries in the constituency"],
+    "educationLevels": ["masters", "phd"],
+    "fieldsOfStudy": [],
+    "studyLocation": "international",
+    "hostCountries": ["United Kingdom"],
+    "fundingType": "full",
+    "fundingCoverage": [
+      "University and college fees",
+      "Personal stipend",
+      "Economy travel to and from Oxford"
+    ],
+    "eligibility": [
+      "Citizen of (or resident in) a country in the West Africa constituency, which includes Ghana",
+      "Age, degree and residency requirements are set out in the official 'Information for Candidates' document for West Africa"
+    ],
+    "requirements": [
+      "References written in English, submitted by the reference deadline"
+    ],
+    "applicationInstructions": [
+      "Read the West Africa 'Information for Candidates' document on the Rhodes Trust website.",
+      "Apply online through the Rhodes Trust application system before the closing date."
+    ],
+    "deadline": "2026-08-27",
+    "deadlineVerified": false,
+    "deadlineNote": "Reported closing date (23:59 GMT) for October 2027 entry; references reportedly due 3 September 2026. Not yet confirmed on the official Rhodes Trust website.",
+    "status": "unverified",
+    "officialUrl": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/west-africa/",
+    "sourceUrl": "https://www.rhodeshouse.ox.ac.uk/scholarships/applications/west-africa/",
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "mandela-rhodes",
+    "slug": "mandela-rhodes-scholarship",
+    "title": "Mandela Rhodes Scholarship",
+    "provider": "The Mandela Rhodes Foundation",
+    "summary": "Postgraduate scholarships (Honours or Master's) at South African universities for young African leaders, combined with a leadership development programme.",
+    "eligibleCountries": ["Ghana", "Other African countries"],
+    "educationLevels": ["masters"],
+    "fieldsOfStudy": [],
+    "studyLocation": "africa",
+    "hostCountries": ["South Africa"],
+    "fundingType": "full",
+    "fundingCoverage": [
+      "Tuition for a one-year Honours or two-year Master's degree",
+      "Leadership development programme"
+    ],
+    "eligibility": [
+      "Citizen of an African country",
+      "Planning Honours or Master's study at a recognised South African higher education institution",
+      "Able to study in English"
+    ],
+    "requirements": [],
+    "applicationInstructions": [
+      "Apply online through the Mandela Rhodes Foundation website when applications open."
+    ],
+    "deadline": "2026-04-14",
+    "deadlineVerified": false,
+    "deadlineNote": "Applications for the 2027 cohort were reported to have closed on 14 April 2026. The next cycle's dates have not been confirmed.",
+    "status": "unverified",
+    "officialUrl": "https://www.mandelarhodes.org/scholarship/apply/",
+    "sourceUrl": "https://www.mandelarhodes.org/scholarship/",
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "stipendium-hungaricum",
+    "slug": "stipendium-hungaricum",
+    "title": "Stipendium Hungaricum Scholarship",
+    "provider": "Government of Hungary (Tempus Public Foundation)",
+    "summary": "Hungarian government scholarships for bachelor's, master's and doctoral study in Hungary for students from partner countries. Ghana is reported to be a partner country.",
+    "eligibleCountries": ["Ghana", "Other Stipendium Hungaricum partner countries"],
+    "educationLevels": ["undergraduate", "masters", "phd"],
+    "fieldsOfStudy": [],
+    "studyLocation": "international",
+    "hostCountries": ["Hungary"],
+    "fundingType": "full",
+    "fundingCoverage": [
+      "Tuition-free study",
+      "Monthly stipend",
+      "Accommodation (dormitory place or contribution)",
+      "Medical insurance"
+    ],
+    "eligibility": [
+      "Citizen of a Stipendium Hungaricum partner country (Ghana is reported to be one)",
+      "Nominated by the sending partner (the responsible authority) in your home country",
+      "Meet the admission requirements of the chosen Hungarian university programme"
+    ],
+    "requirements": [],
+    "applicationInstructions": [
+      "Apply in the official Stipendium Hungaricum online application system.",
+      "Also complete the separate application process of the sending partner in Ghana — its procedures and deadlines may differ."
+    ],
+    "deadline": "2026-01-15",
+    "deadlineVerified": false,
+    "deadlineNote": "Reported deadline for the 2026/27 intake (2 p.m. CET). Dates for the next intake have not been confirmed.",
+    "status": "unverified",
+    "officialUrl": "https://stipendiumhungaricum.hu/apply/",
+    "sourceUrl": "https://stipendiumhungaricum.hu/apply/",
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "gates-cambridge",
+    "slug": "gates-cambridge-scholarship",
+    "title": "Gates Cambridge Scholarship",
+    "provider": "Gates Cambridge Trust, University of Cambridge",
+    "summary": "Full-cost scholarships for outstanding applicants from any country outside the UK to pursue a full-time postgraduate degree at the University of Cambridge.",
+    "eligibleCountries": ["Any country outside the United Kingdom (including Ghana)"],
+    "educationLevels": ["masters", "phd"],
+    "fieldsOfStudy": [],
+    "studyLocation": "international",
+    "hostCountries": ["United Kingdom"],
+    "fundingType": "full",
+    "fundingCoverage": [
+      "Full cost of study at Cambridge (fees and maintenance), as defined by the Gates Cambridge Trust"
+    ],
+    "eligibility": [
+      "Citizen of any country outside the UK",
+      "Applying to a full-time postgraduate degree at the University of Cambridge"
+    ],
+    "requirements": [],
+    "applicationInstructions": [
+      "Apply for your Cambridge postgraduate course through the University's graduate application portal and complete the Gates Cambridge section of the funding application.",
+      "Submit by your course's funding deadline — for most non-US applicants this is reported to be either 8 December 2026 or 6 January 2027, depending on the course."
+    ],
+    "deadlineNote": "No single deadline: it depends on your Cambridge course's funding deadline (reported as 8 December 2026 or 6 January 2027 for most non-US applicants). Not yet confirmed on the official website.",
+    "status": "unverified",
+    "officialUrl": "https://www.gatescambridge.org/",
+    "sourceUrl": "https://www.gatescambridge.org/apply/timeline/",
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "mastercard-foundation-knust",
+    "slug": "mastercard-foundation-scholars-program-knust",
+    "title": "Mastercard Foundation Scholars Program at KNUST",
+    "provider": "Kwame Nkrumah University of Science and Technology (KNUST) with the Mastercard Foundation",
+    "summary": "Comprehensive scholarships for academically qualified young people with financial need to study at KNUST in Kumasi.",
+    "eligibleCountries": ["Ghana", "Other African countries"],
+    "educationLevels": ["undergraduate"],
+    "fieldsOfStudy": [],
+    "studyLocation": "ghana",
+    "hostCountries": ["Ghana"],
+    "fundingType": "full",
+    "fundingCoverage": [
+      "Full tuition",
+      "On-campus accommodation",
+      "Learning materials",
+      "Transportation",
+      "Monthly stipend"
+    ],
+    "eligibility": [
+      "Valid WASSCE, GBCE, ABCE, GCE O/A Level or equivalent results (previous cycles required results not more than five years old)",
+      "Demonstrated financial need",
+      "Record of leadership and community engagement",
+      "Commitment to giving back to your community"
+    ],
+    "requirements": [],
+    "applicationInstructions": [
+      "Check the KNUST Mastercard Foundation Scholars Program website for the current call for applications and application form."
+    ],
+    "deadlineNote": "The current cycle's deadline has not been confirmed. The previous (2025/26) cycle reportedly closed on 30 June 2025.",
+    "status": "unverified",
+    "officialUrl": "https://mcf.knust.edu.gh/scholars-program/",
+    "sourceUrl": "https://mcf.knust.edu.gh/scholarship-application/",
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "mastercard-foundation-ashesi",
+    "slug": "mastercard-foundation-scholars-program-ashesi",
+    "title": "Mastercard Foundation Scholars Program at Ashesi University",
+    "provider": "Ashesi University with the Mastercard Foundation",
+    "summary": "Scholarships for academically talented African students with financial need to study at Ashesi University in Berekuso, Ghana.",
+    "eligibleCountries": ["Ghana", "Other African countries"],
+    "educationLevels": ["undergraduate"],
+    "fieldsOfStudy": [],
+    "studyLocation": "ghana",
+    "hostCountries": ["Ghana"],
+    "fundingType": "full",
+    "fundingCoverage": [
+      "Tuition",
+      "Housing and living expenses",
+      "Study resources, including books and a laptop"
+    ],
+    "eligibility": [
+      "Citizen of an African country",
+      "Excellent academic record",
+      "Demonstrated financial need",
+      "Leadership potential and commitment to community service"
+    ],
+    "requirements": [],
+    "applicationInstructions": [
+      "Apply for admission to Ashesi University through its online portal and complete the scholarship application included in the admission process."
+    ],
+    "deadlineNote": "The current cycle's deadline has not been confirmed. A previous cycle reportedly closed on 14 June 2025.",
+    "status": "unverified",
+    "officialUrl": "https://ashesi.edu.gh/the-mastercard-foundation-scholars-programme/",
+    "sourceUrl": "https://ashesi.edu.gh/the-mastercard-foundation-scholars-programme/",
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
+  },
+  {
+    "id": "erasmus-mundus",
+    "slug": "erasmus-mundus-joint-masters",
+    "title": "Erasmus Mundus Joint Masters Scholarships",
+    "provider": "European Union (Erasmus+)",
+    "summary": "EU-funded scholarships for integrated master's programmes delivered by consortia of universities in two or more European countries. Open to students worldwide.",
+    "description": "Each Erasmus Mundus Joint Master is run by a consortium of universities that sets its own admission requirements and deadlines. There is no single central application.",
+    "eligibleCountries": ["Any country (including Ghana)"],
+    "educationLevels": ["masters"],
+    "fieldsOfStudy": [],
+    "studyLocation": "international",
+    "hostCountries": ["European Union countries"],
+    "fundingType": "full",
+    "fundingCoverage": [
+      "Participation costs (including tuition)",
+      "Travel and installation costs",
+      "Monthly subsistence allowance"
+    ],
+    "eligibility": [
+      "Hold a first higher-education degree or equivalent, and meet the chosen programme's admission requirements",
+      "Scholarship eligibility may be restricted if you have recently lived in Erasmus+ programme countries for an extended period — check the rules of the programme you apply to"
+    ],
+    "requirements": [],
+    "applicationInstructions": [
+      "Choose a programme from the Erasmus Mundus catalogue.",
+      "Apply directly to that programme's consortium through its own website and deadline."
+    ],
+    "deadlineNote": "Deadlines vary by programme and are set by each consortium, typically several months before the intake.",
+    "status": "unverified",
+    "officialUrl": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters",
+    "sourceUrl": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters",
+    "createdAt": "2026-09-28",
+    "updatedAt": "2026-09-28"
+  }
+]

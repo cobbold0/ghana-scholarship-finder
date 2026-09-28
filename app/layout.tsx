@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
 };
 
 const adsenseClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
+const gaId = process.env.NEXT_PUBLIC_GA_ID;
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
@@ -31,6 +33,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           />
         )}
       </body>
+      {gaId && <GoogleAnalytics gaId={gaId} />}
     </html>
   );
 }

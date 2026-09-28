@@ -16,7 +16,8 @@
 - Optional: add a custom domain in Vercel, then update `NEXT_PUBLIC_SITE_URL` in the Vercel project to match and redeploy.
 - Confirm the site loads in a private/incognito window (Vercel deployment protection is on for preview URLs; the production domain should be public).
 - Submit the sitemap to Google Search Console.
-- Configure analytics if desired (no analytics is installed).
+- Create a GA4 property, then set `NEXT_PUBLIC_GA_ID` (e.g. `G-XXXXXXXXXX`) for Production in the Vercel project and redeploy. In GA admin, keep Enhanced measurement on (outbound clicks, site search with the `q` parameter).
+- Before enabling GA: publish a privacy policy and, if serving EU/UK visitors, add cookie consent.
 - Apply for Google AdSense when the site has verified content; then set `NEXT_PUBLIC_ADSENSE_CLIENT_ID` and `NEXT_PUBLIC_ADSENSE_SLOT_ID`. Do not enable Auto ads.
 - Review privacy and legal requirements (privacy policy/cookie notice, especially once ads or analytics are enabled).
 - Add a contact method for reporting errors in listings (email or form) — needs an owner-controlled address.
@@ -25,7 +26,7 @@
 
 - Add more verified scholarships (e.g. Fulbright, DAAD, MEXT, Australia Awards, Ghana government scholarships), enabling more categories and the field-of-study and status filters
 - Add a "Study in Ghana" category once it has at least three listings (already defined; published automatically)
-- Anonymous analytics events (`scholarship_viewed`, `search_performed`, `filter_applied`, `application_link_clicked`, `scholarship_saved`)
+- Explicit analytics events for `filter_applied` and `application_link_clicked` if Enhanced measurement proves insufficient
 - Build an admin scholarship-management interface
 - Add bulk import and duplicate detection
 - Scheduled check that flags listings whose `lastVerifiedAt` is older than N months
@@ -52,4 +53,5 @@
 - Metadata, canonical URLs, Open Graph, breadcrumb structured data, sitemap and robots (`/saved` excluded)
 - Environment-gated, labelled ad slots on home, category and guide pages only
 - Deployed to Vercel (project `ghana-scholarship-finder`, auto-deploys from `main`) at https://ghana-scholarship-finder.vercel.app with `NEXT_PUBLIC_SITE_URL` set; canonical URLs and robots verified on the live site
+- Google Analytics 4 integration (env-gated, off until `NEXT_PUBLIC_GA_ID` is set) with a `scholarship_saved` event; About page privacy text shown when GA is enabled
 - Mobile layout checked at 375px width (no horizontal overflow) and save → saved page flow checked in Chromium

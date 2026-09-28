@@ -55,6 +55,10 @@ Rules enforced in code and tests:
 
 `/scholarships` reads filters from URL query params (`q`, `level`, `location`, `field`, `funding`, `status`, `deadline`, `sort`), validated with Zod — invalid values are ignored. The form works without JavaScript; with JS, `next/form` navigates client-side.
 
+## Analytics
+
+Google Analytics 4 loads only when `NEXT_PUBLIC_GA_ID` is set (via `@next/third-parties`). Page views cover scholarship views and filter usage (filters are URL params). Keep GA4 **Enhanced measurement** on in the GA admin so outbound clicks (official application links) and site search (`q` param) are tracked automatically. The only custom event is `scholarship_saved` (`scholarship_id` param). No personal data is sent.
+
 ## Advertising
 
 `components/ads/ad-slot.tsx` renders a labelled AdSense unit only when `NEXT_PUBLIC_ADSENSE_CLIENT_ID` and `NEXT_PUBLIC_ADSENSE_SLOT_ID` are set. It is placed on the home, category and guide pages only — never on scholarship detail pages or near application links. Do not enable AdSense Auto ads, which would place ads on detail pages.

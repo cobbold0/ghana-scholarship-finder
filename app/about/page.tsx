@@ -62,6 +62,13 @@ export default function AboutPage() {
           You don&apos;t need an account. Scholarships you save are stored only in your browser on this device. We do not
           ask for personal documents or personal details.
         </p>
+        {process.env.NEXT_PUBLIC_GA_ID && (
+          <p>
+            We use Google Analytics, which sets cookies, to understand how the site is used — for example which pages
+            are viewed, what people search for and which scholarships are saved. We don&apos;t send your name, contact
+            details or documents to Google.
+          </p>
+        )}
       </section>
 
       <p>
